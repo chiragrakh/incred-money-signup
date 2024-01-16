@@ -1,0 +1,856 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainframe {
+    margin: auto;
+    /* width: 1440px; */
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bgimgsmall {
+    display: none;
+}
+
+.bgimg {
+    width: 50%;
+    height: auto;
+    /* opacity: 0.8; */
+    background: url('../images/img11.png'), lightgray 500% / cover no-repeat;
+    background-size: 1838px;
+    align-items: center;
+    justify-content: center;
+    background-position: 42% 55%;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+
+}
+
+.bgimg .text {
+    width: fit-content;
+    height: 304px;
+    flex-shrink: 0;
+}
+
+.bgimg .text .text1 {
+    color: #FFF;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bgimg .text .text1 span {
+    color: #FFA376;
+    font-weight: 700;
+}
+
+.bgimg .text .text2 {
+    margin-top: 39px;
+    color: #FFF;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148%;
+    /* 26.64px */
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.bgimg .text .text2 span {
+    font-weight: 700;
+}
+
+.bgimg .text .features {
+    display: flex;
+    flex-direction: row;
+}
+
+.bgimg .text .features p {
+    height: fit-content;
+    border-radius: 18px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.22px;
+    /* 287.267% */
+    letter-spacing: 1px;
+
+    text-transform: capitalize;
+    padding: 0px 10px;
+    margin: 28px 10px 0px 0px;
+}
+
+.bgimg .text .carousel {
+    overflow: hidden;
+    width: 20em;
+    margin-top: 60px;
+    padding: 6px 0;
+}
+
+.bgimg .text .carousel .carousel-slider {
+    display: flex;
+    width: 20em;
+    flex-direction: row;
+    transition: transform 0.5s;
+}
+
+.bgimg .text .carousel .carousel-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    flex: 0 0 100%;
+}
+
+.bgimg .text .carousel .carousel-item img {
+    width: 76px;
+    height: 76px;
+    margin-right: 26px;
+}
+
+.bgimg .text .carousel .carousel-item .toptext {
+    color: #FFF;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108%;
+    /* 25.92px */
+}
+
+.bgimg .text .carousel .carousel-item .bottomtext {
+    color: #FFF;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.frame2 {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.subframe {
+    width: 370px;
+}
+
+.frame2 img {
+    width: 181px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.frame2 h2 {
+    color: #000;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 55px;
+    pointer-events: none;
+}
+
+.frame2 span {
+    display: inline-block;
+    color: #F15D2A;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.contact-input {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    height: 53x;
+    font-weight: 800;
+}
+
+.contact-input::placeholder {
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.country-code {
+    flex: 10px 0px 60px;
+    padding: 10px 10px;
+
+    color: #000;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+
+    pointer-events: none;
+}
+
+.line {
+    height: 20px;
+    width: 1px;
+    background-color: #000;
+    margin-right: 10px
+}
+
+.phone-number {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+.frame2 p {
+    color: #000;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+
+    word-wrap: break-word;
+    white-space: normal;
+
+    margin-top: 48px;
+}
+
+.frame2 p a {
+    color: var(--InCred-Money-Twilight-Blue, #0051D3);
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+
+.frame2 .bottom-content button {
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 20px;
+
+    border-radius: 4px;
+    border: none;
+    background: #283A97;
+
+    cursor: pointer;
+
+    color: #FFF;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+}
+
+
+/*                 desktop7              */
+
+.vercodetext {
+    color: var(--InCred-Money-Cloudy-Grey, #525463);
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vercodetext span {
+    color: var(--InCred-Money-Cloudy-Grey, #525463);
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.otp form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+
+.otp input[type="text"] {
+    width: 57px;
+    height: 56px;
+    border: 1px solid #E8E8E8;
+    background-color: #F6F6F6;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.otp input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #283A97;
+}
+
+.otp {
+    width: 300px;
+}
+
+a.resend {
+    float: right;
+    color: #F15D2A;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9px;
+}
+
+
+/*             desktop6            */
+
+.regform {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.regform label {
+    margin-top: 22px;
+    color: #000;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.regform input[type=text] {
+    border: none;
+    width: auto;
+    margin-top: 3px;
+    height: 53px;
+    background-color: #f6f6f6;
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: 'Acumin Pro', sans-serif;
+
+
+}
+
+.regform input[type="text"]::placeholder {
+    color: var(--gray-03, #BDBDBD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+
+
+/*             desktop8            */
+.checkbox {
+    margin-top: 17px;
+    width: inherit;
+}
+
+.checkbox .checkboxline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox .check {
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 15px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 18px 30px 16px 14px;
+    cursor: pointer;
+}
+
+.checkbox .checkboxline .check label {
+    color: #BDBDBD;
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* Hide default checkbox */
+.checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    width: 5px;
+    height: 12px;
+    margin-right: 20px;
+    border: solid #BDBDBD;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* When the checkbox is checked, add a blue checkmark */
+.check input:checked~.checkmark {
+    width: 5px;
+    height: 12px;
+    border: solid #283A97;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.check input:checked~.check {
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border: 1px solid #283A97;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 18px 30px 16px 14px;
+    cursor: pointer;
+}
+
+.checkboxline input:checked~.check {
+    color: #283A97;
+}
+
+
+/*   desktop9   */
+.checkbox input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.bigText {
+    display: none;
+}
+
+
+/*     Media Queries      */
+
+@media (max-width: 800px) {
+
+    #smallText {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: none;
+    }
+
+    .mainframe {
+        height: 95vh;
+        flex-direction: column;
+        margin-bottom: 14px;
+    }
+
+    .bgimgsmall {
+        display: block;
+        width: 100%;
+        margin-top: 18px;
+        margin-inline: auto;
+        height: 220px;
+        background: url('../images/img11.png'), lightgray 500% / cover no-repeat;
+        background-size: 861px;
+        background-position: 39% 45%;
+
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgimgsmall .text {
+        width: 90%;
+        font-family: 'Acumin Pro', sans-serif;
+    }
+
+    .bgimgsmall .text .text1 {
+        color: #FFF;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 100% */
+        margin-top: 10px;
+    }
+
+    .bgimgsmall .text .text1 span {
+        color: #FFF;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: unset;
+    }
+
+    .bgimgsmall .text .text2 {
+        margin-top: 10px;
+        color: #FFF;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 13.771px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 148%;
+        /* 20.38px */
+        text-transform: capitalize;
+    }
+
+    .bgimgsmall .text .text2 span {
+        color: #FFF;
+        font-size: 13.771px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 148%;
+        text-transform: capitalize;
+    }
+
+    .bgimgsmall .text .features {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bgimgsmall .text .features p {
+        color: var(--InCred-Money-Midnight-Blue, #283A97);
+        text-align: center;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 9.652px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+        border-radius: 49.065px;
+        border: 0.402px solid var(--InCred-Money-Midnight-Blue, #283A97);
+        display: flex;
+        height: 17.696px;
+        padding: 4.022px 8.043px;
+        align-items: center;
+        gap: 3.217px;
+        margin-top: 10px;
+        background: var(--InCred-Money-Design-System, linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(0deg, #000 0%, #000 100%), linear-gradient(0deg, #283A97 0%, #283A97 100%), #F15D2A);
+    }
+
+
+    .bgimg {
+        width: 100%;
+        display: none;
+    }
+
+    .frame2 {
+        width: 90%;
+        margin: auto;
+        padding: 16px 14px;
+    }
+
+    .frame2 .subframe {
+        width: 100%;
+    }
+
+    .otp input[type="text"] {
+        width: 51px;
+        height: 50px;
+    }
+
+    .checkbox {
+        align-items: start;
+        width: 100%;
+    }
+
+    .checkbox .checkboxline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .checkbox .check {
+        width: max-content;
+        padding: 20px 18px 16px 14px;
+    }
+
+    .bigText {
+        display: block;
+    }
+
+    .bgimgsmall .text .carousel2 {
+        overflow: hidden;
+        width: 15em;
+        margin-top: 15px;
+        padding: 6px 0;
+    }
+
+    .bgimgsmall .text .carousel2 .carousel2-slider {
+        display: flex;
+        width: 15em;
+        flex-direction: row;
+        transition: transform 0.5s;
+    }
+
+    .bgimgsmall .text .carousel2 .carousel2-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .bgimgsmall .text .carousel2 .carousel2-item img {
+        width: 46px;
+        height: 46px;
+        margin-right: 10px;
+    }
+
+    .bgimgsmall .text .carousel2 .carousel2-item .toptext {
+        color: #FFF;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 108%;
+        /* 25.92px */
+    }
+
+    .bgimgsmall .text .carousel2 .carousel2-item .bottomtext {
+        color: #FFF;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 25.6px */
+    }
+
+}
+
+@media (max-width: 450px) {
+    .mainframe {
+        height: 98vh;
+        box-sizing: content-box;
+    }
+
+    .frame2 {
+        height: 100vh;
+        width: auto;
+        padding: 10px 1px;
+        box-sizing: content-box;
+    }
+
+    .frame2 .subframe .bottom-content button {
+        margin-top: 11px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .frame2 .subframe {
+        margin-inline: 14px;
+        margin-top: 16px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .frame2 .subframe .logo img {
+        width: 120px;
+        height: 49px;
+    }
+
+    .subframe h2 {
+        color: #283A97;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        text-transform: capitalize;
+        margin-top: 41px;
+        /* 227.273% */
+    }
+
+    .subframe h2 span {
+        display: block;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .subframe .specialh2 {
+        color: #283A97;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 227.273% */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subframe .specialh2 .specialspan {
+        color: #F15D2A;
+        font-family: 'Acumin Pro', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .subframe .contact-input {
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    .subframe input::placeholder {
+        color: var(--gray-03, #BDBDBD);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .subframe .contact-input .country-code {
+        color: var(--gray-03, #BDBDBD);
+    }
+
+    .subframe .bottom-content p {
+        color: var(--Incred-Money-Winter-Grey, #767B8E);
+        font-size: 10.559px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 14px;
+        /* 132.594% */
+    }
+
+    .subframe p a {
+        color: var(--Incred-Money-Winter-Grey, #767B8E);
+        font-size: 10.559px;
+    }
+
+    .bottom-content {
+        margin-top: auto;
+    }
+
+    /*   desktop7    */
+
+    .subframe .vercodetext {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subframe .vercodetext span {
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .frame2 span {
+        display: contents;
+    }
+
+    .otp {
+        width: 85%;
+        margin: auto;
+    }
+
+    .otp input[type="text"] {
+        margin: 0px;
+    }
+
+    .otp form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    a.resend {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+
+    /*       desktop6      */
+
+    .subframe .regform {
+        margin-top: 30px;
+    }
+
+    .subframe .regform label {
+        font-size: 12px;
+        margin-top: 23px;
+    }
+
+
+    .checkmark {
+        width: 5px;
+        height: 12px;
+        margin-right: 20px;
+        border: solid #BDBDBD;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+    }
+
+
+    /*     desktop8      */
+
+    .check span {
+        display: inline-block;
+    }
+
+    .checkboxline {
+        flex-wrap: wrap;
+    }
+
+}
