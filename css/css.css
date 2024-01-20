@@ -470,6 +470,15 @@ a.resend {
     display: none;
 }
 
+/*  marquee tag    */
+
+.marque-tag{
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: red;
+}
+
 
 /*     Media Queries      */
 
