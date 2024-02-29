@@ -251,7 +251,7 @@
 }
 
 .frame2 p a {
-    color: var(--InCred-Money-Twilight-Blue, #0051D3);
+    color: var(--Elite-Cents-Twilight-Blue, #0051D3);
     font-family: 'Acumin Pro', sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -285,7 +285,7 @@
 /*                 desktop7              */
 
 .vercodetext {
-    color: var(--InCred-Money-Cloudy-Grey, #525463);
+    color: var(--Elite-Cents-Cloudy-Grey, #525463);
     font-family: 'Acumin Pro', sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -294,7 +294,7 @@
 }
 
 .vercodetext span {
-    color: var(--InCred-Money-Cloudy-Grey, #525463);
+    color: var(--Elite-Cents-Cloudy-Grey, #525463);
     font-family: 'Acumin Pro', sans-serif;
     font-size: 13px;
     font-style: normal;
@@ -571,7 +571,7 @@ a.resend {
     }
 
     .bgimgsmall .text .features p {
-        color: var(--InCred-Money-Midnight-Blue, #283A97);
+        color: var(--Elite-Cents-Midnight-Blue, #283A97);
         text-align: center;
         font-family: 'Acumin Pro', sans-serif;
         font-size: 9.652px;
@@ -579,14 +579,14 @@ a.resend {
         font-weight: 400;
         line-height: 12px;
         border-radius: 49.065px;
-        border: 0.402px solid var(--InCred-Money-Midnight-Blue, #283A97);
+        border: 0.402px solid var(--Elite-Cents-Midnight-Blue, #283A97);
         display: flex;
         height: 17.696px;
         padding: 4.022px 8.043px;
         align-items: center;
         gap: 3.217px;
         margin-top: 10px;
-        background: var(--InCred-Money-Design-System, linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(0deg, #000 0%, #000 100%), linear-gradient(0deg, #283A97 0%, #283A97 100%), #F15D2A);
+        background: var(--Elite-Cents-Design-System, linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(0deg, #000 0%, #000 100%), linear-gradient(0deg, #283A97 0%, #283A97 100%), #F15D2A);
     }
 
 
@@ -772,7 +772,7 @@ a.resend {
     }
 
     .subframe .bottom-content p {
-        color: var(--Incred-Money-Winter-Grey, #767B8E);
+        color: var(--Elite-Cents-Winter-Grey, #767B8E);
         font-size: 10.559px;
         font-style: normal;
         font-weight: 300;
@@ -781,7 +781,7 @@ a.resend {
     }
 
     .subframe p a {
-        color: var(--Incred-Money-Winter-Grey, #767B8E);
+        color: var(--Elite-Cents-Winter-Grey, #767B8E);
         font-size: 10.559px;
     }
 
